@@ -2,7 +2,7 @@
 
 export default {
   async fetch(request, env, ctx) {
-    const uuid = env.UUID || '20cf4d65-f3ac-4266-8148-76de9e1eac6e';
+    const uuid = env.UUID || '140826b0-8268-41a5-ad61-b1d9f0418518';
     const url = new URL(request.url);
     const path = url.pathname;
     const [, uuidPath, keyword] = path.split('/');
